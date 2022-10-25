@@ -6,7 +6,7 @@ public class Baseball {
     public int strike;
     public int ball;
 
-    public void initStrikeBall(int strike, int ball){
+    public void initStrikeBall(){
         strike=0;
         ball=0;
     }

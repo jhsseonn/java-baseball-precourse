@@ -27,5 +27,11 @@ public class BaseballService {
         baseball.setUserNum(userNum);
     }
 
+    public void startGame() {
+        baseball.initStrikeBall();
+        setRandomNumber();
+        getUserNum();
+    }
+
 
 }
