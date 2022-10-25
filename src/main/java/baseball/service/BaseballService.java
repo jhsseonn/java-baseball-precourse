@@ -11,7 +11,7 @@ public class BaseballService {
     int[] userNum=new int[3];
     Baseball baseball;
 
-    public void startBaseballGame() {
+    public void setRandomNumber() {
         for(int i=0; i<randomNum.length; i++){
             randomNum[i]=Randoms.pickNumberInRange(1,9);
         }
